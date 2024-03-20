@@ -1,6 +1,7 @@
 export interface IMovie{
-    page: number,
-    results: [],
-    total_pages:number,
-    total_results:number
+    id:number,
+    genre_ids:[],
+    original_title:string,
+    poster_path:string,
+    popularity:number
 }
