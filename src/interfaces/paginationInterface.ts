@@ -1,7 +1,6 @@
 export interface IPagination<T> {
-    total_items: number;
-    total_pages: number;
-    prev: string;
-    next: string;
-    items: T[];
+    page: string,
+    results: T[],
+    total_pages:number,
+    total_results:number
 }
